@@ -1,0 +1,254 @@
+{
+  "Normal": {
+    "name": "ノーマル",
+    "eName": "Normal",
+    "attack": {
+      "x2": [],
+      "x0.5": ["Rock", "Steel"],
+      "x0": ["Ghost"]
+    },
+    "defense": {
+      "x2": ["Fighting"],
+      "x0.5": [],
+      "0": ["Ghost"]
+    }
+  },
+  "Fire": {
+    "name": "ほのお",
+    "eName": "Fire",
+    "attack": {
+      "x2": ["Grass", "Ice", "Bug", "Steel"],
+      "x0.5": ["Fire", "Water", "Rock", "Dragon"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Water", "Ground", "Rock"],
+      "x0.5": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"],
+      "0": []
+    }
+  },
+  "Water": {
+    "name": "みず",
+    "eName": "Water",
+    "attack": {
+      "x2": ["Fire", "Ground", "Rock"],
+      "x0.5": ["Water", "Grass", "Dragon"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Electric", "Grass"],
+      "x0.5": ["Fire", "Water", "Ice", "Steel"],
+      "0": []
+    }
+  },
+  "Electric": {
+    "name": "でんき",
+    "eName": "Electric",
+    "attack": {
+      "x2": ["Water", "Flying"],
+      "x0.5": ["Electric", "Grass", "Dragon"],
+      "x0": ["Ground"]
+    },
+    "defense": {
+      "x2": ["Ground"],
+      "x0.5": ["Electric", "Flying", "Steel"],
+      "0": []
+    }
+  },
+  "Grass": {
+    "name": "くさ",
+    "eName": "Grass",
+    "attack": {
+      "x2": ["Water", "Ground", "Rock"],
+      "x0.5": ["Electric", "Grass", "Poison", "Flying", "Bug", "Dragon", "Steel"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      "x0.5": ["Water", "Electric", "Grass", "Ground"],
+      "0": []
+    }
+  },
+  "Ice": {
+    "name": "こおり",
+    "eName": "Ice",
+    "attack": {
+      "x2": ["Grass", "Ground", "Flying", "Dragon"],
+      "x0.5": ["Fire", "Water", "Ice", "Stee"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Fire", "Fighting", "Rock", "Steel"],
+      "x0.5": ["Ice"],
+      "0": []
+    }
+  },
+  "Fighting": {
+    "name": "かくとう",
+    "eName": "Fighting",
+    "attack": {
+      "x2": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+      "x0.5": ["Poison", "Flying", "Psychic", "Bug", "Fairy"],
+      "x0": ["Ghost"]
+    },
+    "defense": {
+      "x2": ["Flying", "Psychic", "Fairy"],
+      "x0.5": ["Bug", "Rock", "Dark"],
+      "0": []
+    }
+  },
+  "Poison": {
+    "name": "どく",
+    "eName": "Poison",
+    "attack": {
+      "x2": ["Grass", "Fairy"],
+      "x0.5": ["Poison", "Ground", "Rock", "Ghost"],
+      "x0": ["Steel"]
+    },
+    "defense": {
+      "x2": ["Ground", "Phychic"],
+      "x0.5": ["Grass", "Fighting", "Poison", "Bug", "Fairy"],
+      "0": []
+    }
+  },
+  "Ground": {
+    "name": "じめん",
+    "eName": "Ground",
+    "attack": {
+      "x2": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+      "x0.5": ["Grass", "Bug"],
+      "x0": ["Flying"]
+    },
+    "defense": {
+      "x2": ["Water", "Grass", "Ice"],
+      "x0.5": ["Poison", "Rock"],
+      "0": ["Electric"]
+    }
+  },
+  "Flying": {
+    "name": "ひこう",
+    "eName": "Flying",
+    "attack": {
+      "x2": ["Grass", "Fighting", "Bug"],
+      "x0.5": ["Electric", "Rock", "Steel"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Electric", "Ice", "Rock"],
+      "x0.5": ["Grass", "Fighting", "Bug"],
+      "0": ["Ground"]
+    }
+  },
+  "Psychic": {
+    "name": "エスパー",
+    "eName": "Psychic",
+    "attack": {
+      "x2": ["Fighting", "Poison"],
+      "x0.5": ["Psychic", "Steel"],
+      "x0": ["Dark"]
+    },
+    "defense": {
+      "x2": ["Bug", "Ghost", "Dark"],
+      "x0.5": ["Fighting", "Psychic"],
+      "0": []
+    }
+  },
+  "Bug": {
+    "name": "むし",
+    "eName": "Bug",
+    "attack": {
+      "x2": ["Grass", "Psychic"],
+      "x0.5": ["Fire", "Fighting", "Poison", "Flying", "Ghost", "Steel", "Fairy"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Fire", "Flying", "Rock"],
+      "x0.5": ["Grass", "Fighting", "Ground"],
+      "0": []
+    }
+  },
+  "Rock": {
+    "name": "いわ",
+    "eName": "Rock",
+    "attack": {
+      "x2": ["Fire", "Ice", "Flying", "Bug"],
+      "x0.5": ["Fighting", "Ground", "Steel"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Water", "Grass", "Fighting", "Ground", "Steel"],
+      "x0.5": ["Normal", "Fire", "Poison", "Flying"],
+      "0": []
+    }
+  },
+  "Ghost": {
+    "name": "ゴースト",
+    "eName": "Ghost",
+    "attack": {
+      "x2": ["Psychic", "Ghost"],
+      "x0.5": ["Dark"],
+      "x0": ["Normal"]
+    },
+    "defense": {
+      "x2": ["Ghost", "Dark"],
+      "x0.5": ["Poison", "Bug"],
+      "0": ["Normal", "Fighting"]
+    }
+  },
+  "Dragon": {
+    "name": "ドラゴン",
+    "eName": "Dragon",
+    "attack": {
+      "x2": ["Dragon"],
+      "x0.5": ["Steel"],
+      "x0": ["Fairy"]
+    },
+    "defense": {
+      "x2": ["Ice", "Dragon", "Fairy"],
+      "x0.5": ["Fire", "Water", "Electric", "Grass"],
+      "0": []
+    }
+  },
+  "Dark": {
+    "name": "あく",
+    "eName": "Dark",
+    "attack": {
+      "x2": ["Psychic", "Ghost"],
+      "x0.5": ["Fighting", "Dark", "Fairy"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Fighting", "Bug", "Fairy"],
+      "x0.5": ["Ghost", "Dark"],
+      "0": ["Psychic"]
+    }
+  },
+  "Steel": {
+    "name": "はがね",
+    "eName": "Steel",
+    "attack": {
+      "x2": ["Ice", "Rock", "Fairy"],
+      "x0.5": ["Fire", "Water", "Electric", "Steel"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Fire", "Fighting", "Ground"],
+      "x0.5": ["Normal", "Grass", "Ice", "Flying", "Psychic", "Bug", "Rock", "Dragon", "Steel", "Fairy"],
+      "0": ["Poison"]
+    }
+  },
+  "Fairy": {
+    "name": "フェアリー",
+    "eName": "Fairy",
+    "attack": {
+      "x2": ["Fighting", "Dragon", "Dark"],
+      "x0.5": ["Fire", "Poison", "Steel"],
+      "x0": []
+    },
+    "defense": {
+      "x2": ["Poison", "Steel"],
+      "x0.5": ["Fighting", "Bug", "Dark"],
+      "0": ["Dragon"]
+    }
+  }
+}
