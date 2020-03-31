@@ -3,10 +3,7 @@ import Result from '../../interface';
 import { queries } from './interface';
 import jsonData from '../../json/typeCompatibility.json';
 
-const func = async (
-  req: functions.Request,
-  res: functions.Response,
-): Promise<functions.Response> => {
+const func = async (req: functions.Request): Promise<Result> => {
   const result: Result = { code: 200, message: 'Success' };
 
   try {
@@ -32,7 +29,6 @@ const func = async (
     result.code = 500;
     result.message = 'Server Error';
   }
-
-  return res.status(result.code).send(result.data);
+  return result;
 };
 export default func;

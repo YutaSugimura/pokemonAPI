@@ -10,7 +10,7 @@
     "defense": {
       "x2": ["Fighting"],
       "x0.5": [],
-      "0": ["Ghost"]
+      "x0": ["Ghost"]
     }
   },
   "Fire": {
@@ -24,7 +24,7 @@
     "defense": {
       "x2": ["Water", "Ground", "Rock"],
       "x0.5": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"],
-      "0": []
+      "x0": []
     }
   },
   "Water": {
@@ -38,7 +38,7 @@
     "defense": {
       "x2": ["Electric", "Grass"],
       "x0.5": ["Fire", "Water", "Ice", "Steel"],
-      "0": []
+      "x0": []
     }
   },
   "Electric": {
@@ -52,7 +52,7 @@
     "defense": {
       "x2": ["Ground"],
       "x0.5": ["Electric", "Flying", "Steel"],
-      "0": []
+      "x0": []
     }
   },
   "Grass": {
@@ -66,7 +66,7 @@
     "defense": {
       "x2": ["Fire", "Ice", "Poison", "Flying", "Bug"],
       "x0.5": ["Water", "Electric", "Grass", "Ground"],
-      "0": []
+      "x0": []
     }
   },
   "Ice": {
@@ -80,7 +80,7 @@
     "defense": {
       "x2": ["Fire", "Fighting", "Rock", "Steel"],
       "x0.5": ["Ice"],
-      "0": []
+      "x0": []
     }
   },
   "Fighting": {
@@ -94,7 +94,7 @@
     "defense": {
       "x2": ["Flying", "Psychic", "Fairy"],
       "x0.5": ["Bug", "Rock", "Dark"],
-      "0": []
+      "x0": []
     }
   },
   "Poison": {
@@ -108,7 +108,7 @@
     "defense": {
       "x2": ["Ground", "Phychic"],
       "x0.5": ["Grass", "Fighting", "Poison", "Bug", "Fairy"],
-      "0": []
+      "x0": []
     }
   },
   "Ground": {
@@ -122,7 +122,7 @@
     "defense": {
       "x2": ["Water", "Grass", "Ice"],
       "x0.5": ["Poison", "Rock"],
-      "0": ["Electric"]
+      "x0": ["Electric"]
     }
   },
   "Flying": {
@@ -136,7 +136,7 @@
     "defense": {
       "x2": ["Electric", "Ice", "Rock"],
       "x0.5": ["Grass", "Fighting", "Bug"],
-      "0": ["Ground"]
+      "x0": ["Ground"]
     }
   },
   "Psychic": {
@@ -150,7 +150,7 @@
     "defense": {
       "x2": ["Bug", "Ghost", "Dark"],
       "x0.5": ["Fighting", "Psychic"],
-      "0": []
+      "x0": []
     }
   },
   "Bug": {
@@ -164,7 +164,7 @@
     "defense": {
       "x2": ["Fire", "Flying", "Rock"],
       "x0.5": ["Grass", "Fighting", "Ground"],
-      "0": []
+      "x0": []
     }
   },
   "Rock": {
@@ -178,7 +178,7 @@
     "defense": {
       "x2": ["Water", "Grass", "Fighting", "Ground", "Steel"],
       "x0.5": ["Normal", "Fire", "Poison", "Flying"],
-      "0": []
+      "x0": []
     }
   },
   "Ghost": {
@@ -192,7 +192,7 @@
     "defense": {
       "x2": ["Ghost", "Dark"],
       "x0.5": ["Poison", "Bug"],
-      "0": ["Normal", "Fighting"]
+      "x0": ["Normal", "Fighting"]
     }
   },
   "Dragon": {
@@ -206,7 +206,7 @@
     "defense": {
       "x2": ["Ice", "Dragon", "Fairy"],
       "x0.5": ["Fire", "Water", "Electric", "Grass"],
-      "0": []
+      "x0": []
     }
   },
   "Dark": {
@@ -220,7 +220,7 @@
     "defense": {
       "x2": ["Fighting", "Bug", "Fairy"],
       "x0.5": ["Ghost", "Dark"],
-      "0": ["Psychic"]
+      "x0": ["Psychic"]
     }
   },
   "Steel": {
@@ -234,7 +234,7 @@
     "defense": {
       "x2": ["Fire", "Fighting", "Ground"],
       "x0.5": ["Normal", "Grass", "Ice", "Flying", "Psychic", "Bug", "Rock", "Dragon", "Steel", "Fairy"],
-      "0": ["Poison"]
+      "x0": ["Poison"]
     }
   },
   "Fairy": {
@@ -248,7 +248,7 @@
     "defense": {
       "x2": ["Poison", "Steel"],
       "x0.5": ["Fighting", "Bug", "Dark"],
-      "0": ["Dragon"]
+      "x0": ["Dragon"]
     }
   }
 }
